@@ -1,3 +1,3 @@
 provider "google" {
-    # TODO 1: Add the Google project here.
+    project = var.project_id
 }
