@@ -1,0 +1,6 @@
+- extend setup.md
+  - terraform and git installation
+  - how to clone this repository to use as boilerplate
+- onboard all participants on gcp
+- define all tasks and prepare links in files
+- have an initial session plying through the workshop
