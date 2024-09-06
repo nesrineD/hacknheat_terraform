@@ -2,5 +2,5 @@
   - terraform and git installation
   - how to push this repository to participants own git and use as boilerplate
 - onboard all participants on gcp
-- define all tasks and prepare links in files
+- define all tasks and prepare links in files -> confirm if current tasks are fitting and enough
 - have an initial session plying through the workshop
