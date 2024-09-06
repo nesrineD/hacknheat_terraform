@@ -25,7 +25,7 @@ Welcome to the workshop. If you haven't already followed the initial setup (GIT_
 - 4.1 Follow the TFE_SETUP.md and connect your repository to TFE
 - 4.2 Inspect the state file remotely
 - 4.3 Use the terraform CLI and inspect the state file again
-- 
+  
 ## Task 5 - Data Sources - bucket.tf
 - 5.1 Create a data source for a GCS Bucket and use following bucket: hack-and-heat-2024-task-5
 - 5.2 Upload this file to the bucket with your name prefixed
