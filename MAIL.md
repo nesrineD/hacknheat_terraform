@@ -8,7 +8,7 @@ Details of the Workshop:
 - Time: 9:00 - 12:30
 - Location: Hamburg, Munich and Vienna
 
-Please prepare by following attached markdown file. We recommend bringing your laptop, as we will be engaging in practical exercises throughout the workshop.
+Please prepare by downloading the workshop repository (https://github.com/hack-n-heat/work-package) as a ZIP and following the included SETUP.md file. We recommend bringing your laptop, as we will be engaging in practical exercises throughout the workshop.
 
 Feel free to reach out if you have any questions before the event. Looking forward to an informative and engaging session with all of you!
 
