@@ -8,7 +8,7 @@ Details of the Workshop:
 - Time: 9:00 - 12:30
 - Location: Hamburg, Munich and Vienna
 
-Please prepare by installing Terraform on your machine if you haven't already. We recommend bringing your laptop, as we will be engaging in practical exercises throughout the workshop. A detailed instruction on whats need to prepared and a starting template for the repository you will work on at the workshop is attached.
+Please prepare by following attached markdown file. We recommend bringing your laptop, as we will be engaging in practical exercises throughout the workshop.
 
 Feel free to reach out if you have any questions before the event. Looking forward to an informative and engaging session with all of you!
 
