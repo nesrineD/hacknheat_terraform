@@ -20,7 +20,7 @@ Welcome to the workshop. If you haven't already followed the initial setup (GIT_
 - 3.2 In the main.tf in the module folder create a VM and attach the disk
 - 3.3. In the main.tf in the base folder use the module to create both resources
 - 3.4 Define the self links to the resources in the outputs.tf file
-- 
+  
 ## Task 4 - Terraform Remote State
 - 4.1 Follow the TFE_SETUP.md and connect your repository to TFE
 - 4.2 Inspect the state file remotely
