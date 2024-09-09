@@ -6,8 +6,9 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 - There are helpful links in the files to pages containing information.
 - When you need help, please inform your workshop presenter in the office.
 
-## Preparation (skip, if already done when receiving our welcome mail)
-- 0.1 
+## Preparation (skip, if already done when you received our welcome mail ✉️)
+- 0.1 Create a HCP Terraform account under https://app.terraform.io/session.
+- 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ## Task 1 - GCS - bucket.tf
 - 1.1 Create a GCS Bucket
