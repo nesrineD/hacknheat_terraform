@@ -9,11 +9,14 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Preparation (skip, if already done when you received our welcome mail ✉️)
 - 0.1 Create a HCP Terraform account under https://app.terraform.io/session.
 - 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+- 0.3 Install the Google Cloud CLI (installation guidance: https://cloud.google.com/sdk/docs/install#installation_instructions)
 
-## Task 1 - GCS - bucket.tf
-- 1.1 Create a GCS Bucket
-- 1.2 Create an IAM binding for the Bucket with the Role Storage Object User and yourself as the member
-- 1.3 Destroy the bucket by either commenting out or deleting the code
+## Task 1 - Google Cloud Storage (GCS)
+- 1.1 Run `gcloud auth application-default login` to store you credentials for GCP locally (the Terraform Google provider needs them for authentication)
+- 1.2 Run `terraform init` in your project's root to install the Google provider (you can find the provider in `providers.tf`)
+- 1.3 Create a GCS Bucket -> `bucket.tf`
+- 1.4 Create an IAM binding for the Bucket with the Role Storage Object User and yourself as the member
+- 1.5 Destroy the bucket by either commenting out or deleting the code
 
 ## Task 2 - Terraform State - service_account.tf
 - 2.1 Create a Service Account
