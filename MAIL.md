@@ -8,9 +8,13 @@ Details of the Workshop:
 - Time: 9:00 - 12:30
 - Location: Hamburg, Munich and Vienna
 
-Please prepare by downloading the workshop repository (https://github.com/hack-n-heat/work-package) as a ZIP and following the included SETUP.md file. We recommend bringing your laptop, as we will be engaging in practical exercises throughout the workshop.
+The workshop schedule will be tight, so we would appreciate it if you already prepare the following:
 
-Feel free to reach out if you have any questions before the event. Looking forward to an informative and engaging session with all of you!
+- Download the workshop repository (https://github.com/hack-n-heat/work-package) as a ZIP, extract it and create a repository including these folders and files (using your own GitHub account).
+- Create a HCP Terraform account under https://app.terraform.io/session.
+- Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+Feel free to reach out if you have any questions before the event. We are looking forward to an informative and engaging session with all of you!
 
 Best regards,
 
