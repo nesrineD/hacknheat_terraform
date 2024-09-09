@@ -1,9 +1,13 @@
 # Hack and Heat 2024 - Terraform Workshop
 
-Welcome to the workshop. If you haven't already followed the initial setup (GIT_TF_SETUP.md), please start there. Otherwise you will find in the following sections the tasks. Happy hacking! 😄
+Welcome to the workshop. If you haven't already followed the initial setup that was sent out by mail (due to unforeseen events or just laziness 🦥), please start with the below section PREPARATION. Otherwise you will find the tasks in the following sections. Happy hacking! 😄
 
-- Links to the provider pages are added in the corresponding files.
-- When you need help, please inform your workshop presenter in the office
+- The structure of the project has already been created for you. Just work in the files provided in this repository. 
+- There are helpful links in the files to pages containing information.
+- When you need help, please inform your workshop presenter in the office.
+
+## Preparation (skip, if already done when receiving our welcome mail)
+- 0.1 
 
 ## Task 1 - GCS - bucket.tf
 - 1.1 Create a GCS Bucket
