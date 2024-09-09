@@ -1,3 +1,5 @@
+# HINT: use `terraform plan` & `terraform apply` to create the resources
+
 # TODO: Create a google_storage_bucket 
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
 
