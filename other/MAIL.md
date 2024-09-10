@@ -11,8 +11,8 @@ Details of the Workshop:
 The workshop schedule will be tight, so we would appreciate it if you already prepare the following:
 
 - Download the workshop repository (https://github.com/hack-n-heat/work-package) as a ZIP, extract it and create a repository including these folders and files (using your own GitHub account).
-- Create a HCP Terraform account [here] (https://app.terraform.io/public/signup/account)
-- Install the terraform CLI ([installation guidance] (https://developer.hashicorp.com/terraform/install))
+- Create a HCP Terraform account [here](https://app.terraform.io/public/signup/account)
+- Install the terraform CLI ([installation guidance](https://developer.hashicorp.com/terraform/install))
 - Check if you can access our [GCP project](https://console.cloud.google.com/welcome?project=senacor-hack-and-heat-2024). You may have to log in with your senacor email account to Google.
 
 Feel free to reach out if you have any questions before the event. We are looking forward to an informative and engaging session with all of you!
