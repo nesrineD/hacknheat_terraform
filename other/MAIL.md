@@ -13,7 +13,6 @@ The workshop schedule will be tight, so we would appreciate it if you already pr
 - Download the workshop repository (https://github.com/hack-n-heat/work-package) as a ZIP, extract it and create a repository including these folders and files (using your own GitHub account).
 - Create a HCP Terraform account under https://app.terraform.io/public/signup/account
 - Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/install)
-- Install the Google Cloud CLI (installation guidance: https://cloud.google.com/sdk/docs/install#installation_instructions)
 
 Feel free to reach out if you have any questions before the event. We are looking forward to an informative and engaging session with all of you!
 
