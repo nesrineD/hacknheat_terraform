@@ -2,6 +2,9 @@
 
 ## 1. Create a workspace and link it to you GitHub repository
 
+> [!CAUTION]
+> The name of the workspace must be `hacknheat` as our Workload Identity Federation Pool does only allow provide tokens for workloads with this workspace name.
+
 ![](./screenshots/tfe_org.png)
 ![](./screenshots/tfe_vcs.png)
 ![](./screenshots/tfe_repo.png)
