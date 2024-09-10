@@ -1,14 +1,14 @@
 # Hack and Heat 2024 - Terraform Workshop
 
-Welcome to the workshop. If you haven't already followed the initial setup that was sent out by mail (due to unforeseen events or just laziness 🦥), please start with the below section PREPARATION. Otherwise you will find the tasks in the following sections. Happy hacking! 😄
+Welcome to the workshop. If you haven't already followed the initial setup that was sent out by mail (due to unforeseen events or just laziness 🦥), please start with the section PREPARATION. Otherwise you will find the tasks in the following sections. Happy hacking! 😄
 
 - The structure of the project has already been created for you. Just work in the files provided in this repository. 
 - There are helpful links in the files to pages containing information.
 - When you need help, please inform your workshop presenter in the office.
 
 ## Preparation (skip, if already done when you received our welcome mail ✉️)
-- 0.1 Create a HCP Terraform account under https://app.terraform.io/session.
-- 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+- 0.1 Create a HCP Terraform account under https://app.terraform.io/public/signup/account
+- 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/install)
 - 0.3 Install the Google Cloud CLI (installation guidance: https://cloud.google.com/sdk/docs/install#installation_instructions)
 
 ## Task 1 - Google Cloud Storage (GCS)
