@@ -3,7 +3,7 @@
 ## 1. Create a workspace and link it to you GitHub repository
 
 > [!CAUTION]
-> The name of the workspace must be `hacknheat` as our Workload Identity Federation Pool in GCP does only allow and therefore provide tokens for workloads with this workspace name.
+> The name of the workspace must be `hacknheat` as our Workload Identity Federation Pool in GCP does only allow and therefore provide tokens for workloads with this workspace name. The workspace can be renamed in the settings.
 
 ![](./screenshots/tfe_org.png)
 ![](./screenshots/tfe_vcs.png)
