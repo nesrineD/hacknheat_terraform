@@ -24,7 +24,7 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Task 2 - Terraform State - service_account.tf
 - 2.1 Create a Service Account (check current service accounts [here](https://console.cloud.google.com/iam-admin/serviceaccounts?project=senacor-hack-and-heat-2024))
 - 2.2 Create a Service Account Key (check current service account keys by clicking on your newly created service account and then on `keys`)
-- 2.3 Inspect the state file with the terraform cli (hints can be found in the file)
+- 2.3 Inspect the state file with the terraform cli (hints can be found in the tf file)
 
 ## Task 3 - Terraform Modules - ./module and main.tf
 - 3.1 In the main.tf in the module folder create a disk
