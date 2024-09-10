@@ -12,7 +12,8 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 
 ## Task 1 - Google Cloud Storage (GCS)
 - 1.1 The workshop team will give you the key.json file for your service account. Store this key in `sa_key.json`.
-:warning: ATTENTION: This is not a recommended practice as service account keys shouldn't be handled like this. This approach was only taken for our workshop as shortcut to spare you the installation of the Google Cloud SDK and the connection of your email address with Google.
+[!CAUTION]
+ATTENTION: This is not a recommended practice as service account keys shouldn't be handled like this. This approach was only taken for our workshop as shortcut to spare you the installation of the Google Cloud SDK and the connection of your email address with Google.
 - 1.2 Run `terraform init` in your project's root to install the Google provider (you can find the provider in `providers.tf`)
 - 1.3 Create a GCS Bucket -> `bucket.tf`
 - 1.4 Create an IAM binding for the Bucket with the Role Storage Object User and yourself as the member
