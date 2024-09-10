@@ -17,13 +17,13 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 > [!CAUTION]
 > This is not a recommended practice as service account keys shouldn't be handled like this. This approach was only taken for our workshop as shortcut to spare you the installation of the Google Cloud SDK and the connection of your email address with Google.
 - 1.3 Run `terraform init` in your project's root to install the Google provider (you can find the provider in `providers.tf`)
-- 1.4 Create a GCS Bucket -> `bucket.tf` (check your buckets [here](https://console.cloud.google.com/storage/browser?referrer=search&project=senacor-hack-and-heat-2024&prefix=&forceOnBucketsSortingFiltering=true))
+- 1.4 Create a GCS Bucket -> `bucket.tf` (check current buckets [here](https://console.cloud.google.com/storage/browser?referrer=search&project=senacor-hack-and-heat-2024&prefix=&forceOnBucketsSortingFiltering=true))
 - 1.5 Create an IAM binding for the Bucket with the Role Storage Object User and yourself as the member
 - 1.6 Destroy the bucket by either commenting out or deleting the code
 
 ## Task 2 - Terraform State - service_account.tf
-- 2.1 Create a Service Account
-- 2.2 Create a Service Account Key
+- 2.1 Create a Service Account (check current service accounts [here](https://console.cloud.google.com/iam-admin/serviceaccounts?project=senacor-hack-and-heat-2024))
+- 2.2 Create a Service Account Key (check current service account keys by clicking on your newly created service account and then on `keys`)
 - 2.3 Inspect the state file with the terraform cli (hints can be found in the file)
 
 ## Task 3 - Terraform Modules - ./module and main.tf
