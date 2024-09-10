@@ -9,7 +9,6 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Preparation (skip, if already done when you received our welcome mail ✉️)
 - 0.1 Create a HCP Terraform account under https://app.terraform.io/public/signup/account
 - 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/install)
-- 0.3 Install the Google Cloud CLI (installation guidance: https://cloud.google.com/sdk/docs/install#installation_instructions)
 
 ## Task 1 - Google Cloud Storage (GCS)
 - 1.1 Run `gcloud auth application-default login` to store you credentials for GCP locally (the Terraform Google provider needs them for authentication)
