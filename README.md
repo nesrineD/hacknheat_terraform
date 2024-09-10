@@ -9,6 +9,7 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Preparation (skip, if already done when you received our welcome mail ✉️)
 - 0.1 Create a HCP Terraform account under https://app.terraform.io/public/signup/account
 - 0.2 Install the terraform CLI (installation guidance: https://developer.hashicorp.com/terraform/install)
+- 0.3 Check if you can access our [GCP project](https://console.cloud.google.com/welcome?project=senacor-hack-and-heat-2024). You may have to log in with your senacor email account to Google.
 
 ## Task 1 - Google Cloud Storage (GCS)
 - 1.1 Have a look in our empty [GCP Project](https://console.cloud.google.com/welcome?project=senacor-hack-and-heat-2024)
