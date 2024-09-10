@@ -23,7 +23,7 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Task 2 - Terraform State - service_account.tf
 - 2.1 Create a Service Account
 - 2.2 Create a Service Account Key
-- 2.3 Inspect the state file with the terraform cli
+- 2.3 Inspect the state file with the terraform cli (hints can be found in the file)
 
 ## Task 3 - Terraform Modules - ./module and main.tf
 - 3.1 In the main.tf in the module folder create a disk
