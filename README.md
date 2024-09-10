@@ -30,8 +30,8 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 - 3.1 In the variables.tf define the name for the disk and for the instance
 - 3.2 In the main.tf in the module folder create a disk
 - 3.3 In the main.tf in the module folder create a VM and attach the disk
-- 3.4. In the main.tf in the base folder use the module to create both resources (provide the names as arguments of the module)
-- 3.5 Define the self links to the resources in the outputs.tf file
+- 3.4 In the main.tf in the base folder use the module to create both resources (provide the names as arguments of the module)
+- 3.5 In the outputs.tf file in the module folder define the self links of the resources
   
 ## Task 4 - Terraform Remote State
 - 4.1 Follow the TFE_SETUP.md and connect your repository to TFE
