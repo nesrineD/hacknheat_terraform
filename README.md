@@ -15,7 +15,7 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 - 1.1 Have a look in our empty [GCP Project](https://console.cloud.google.com/welcome?project=senacor-hack-and-heat-2024)
 - 1.2 The workshop team will give you the key.json file for your service account. Store this key in `sa_key.json`.
 > [!CAUTION]
-> This is not a recommended practice as service account keys shouldn't be handled like this. This approach was only taken for our workshop as shortcut to spare you the installation of the Google Cloud SDK and the connection of your email address with Google.
+> This is not a recommended practice as service account keys shouldn't be handled like this. This approach was only taken for our workshop as shortcut to spare you the installation of the Google Cloud SDK. We will later on delete this key and authorize via Workload Identity Federation as best practice.
 - 1.3 Run `terraform init` in your project's root to install the Google provider (you can find the provider in `providers.tf`)
 - 1.4 Create a GCS Bucket -> `bucket.tf` (check current buckets [here](https://console.cloud.google.com/storage/browser?referrer=search&project=senacor-hack-and-heat-2024&prefix=&forceOnBucketsSortingFiltering=true))
 - 1.5 Create an IAM binding for the Bucket with the Role Storage Object User and yourself as the member
@@ -33,11 +33,13 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 - 3.4 In the main.tf in the base folder use the module to create both resources (provide the names as arguments of the module)
 - 3.5 In the outputs.tf file in the module folder define the self links of the resources
   
-## Task 4 - Terraform Remote State
-- 4.1 Follow the TFE_SETUP.md and connect your repository to TFE
-- 4.2 Inspect the state file remotely
-- 4.3 Use the terraform CLI and inspect the state file again
+## Task 4 - HCP Terraform and Remote State
+- 4.1 Delete your `sa_key.json`. It is not best practice to authorize via service account keys that fly around ✈️.
+- 4.2 Follow the TFE_SETUP.md and connect your repository to HCP Terraform.
+- 4.3 Instead of using `terraform plan` and `terraform apply` locally, push your code to the repository and follow the triggered GitHub action. 
+- 4.4 Inspect the state file remotely
+- 4.5 Use the terraform CLI and inspect the state file again
   
 ## Task 5 - Data Sources - bucket.tf
-- 5.1 Create a data source for a GCS Bucket and use following bucket: hack-and-heat-2024-task-5
+- 5.1 Create a data source for a GCS Bucket and use the following already existing bucket in our project: `hack-and-heat-2024-task-5`
 - 5.2 Upload this file to the bucket with your name prefixed
